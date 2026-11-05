@@ -11,11 +11,14 @@
             border: 1px solid #0284c7;
             border-collapse: collapse;
             margin: 20px 0;
+            font-family: sans-serif;
         }
 
         caption {
             padding: 10px;
             color: #0369a1;
+            font-weight: bold;
+            font-size: 1.2rem;
             text-align: center;
         }
 
@@ -41,46 +44,60 @@
 
     <table>
         <caption>ROTINA SEMANAL</caption>
-        <tr>
-            <th></th>
-            <th>SEG</th>
-            <th>TER</th>
-            <th>QUA</th>
-            <th>QUI</th>
-            <th>SEX</th>
-            <th>SAB</th>
-            <th>DOM</th>
-        </tr>
-        <tr>
-            <th>MANHÃ 08:10 - 13:00</th>
-            <td>Trabalho</td>
-            <td>Trabalho</td>
-            <td>Trabalho</td>
-            <td>Trabalho</td>
-            <td>Trabalho</td>
-            <td>Trabalho</td>
-            <td>Descanso</td>
-        </tr>
-        <tr>
-            <th>TARDE 14:00 - 17:30</th>
-            <td>Trabalho</td>
-            <td>Trabalho</td>
-            <td>Trabalho</td>
-            <td>Trabalho</td>
-            <td>Trabalho</td>
-            <td>Estudo</td>
-            <td>Descanso</td>
-        </tr>
-        <tr>
-            <th>NOITE 19:00 - 23:00</th>
-            <td>Faculdade</td>
-            <td>Faculdade</td>
-            <td>Faculdade</td>
-            <td>Faculdade</td>
-            <td>Estudo</td>
-            <td>Descanso</td>
-            <td>Estudo</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>HORÁRIO</th>
+                <th>SEG</th>
+                <th>TER</th>
+                <th>QUA</th>
+                <th>QUI</th>
+                <th>SEX</th>
+                <th>SAB</th>
+                <th>DOM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>08:00 - 13:00</th>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Trabalho<br><small>(08:00 - 12:00)</small></td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <th>14:00 - 17:30</th>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Estudo</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <th>19:00 - 22:30</th>
+                <td>Faculdade</td>
+                <td>Faculdade</td>
+                <td>Faculdade</td>
+                <td>Faculdade</td>
+                <td>Estudo</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <th>00:00 - 01:30</th>
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+        </tbody>
     </table>
 
 </body>
